@@ -8,4 +8,9 @@ kth circle.
 The given problem is to find the distance from the source to all vertices within a radius of distance k
 keeping in mind the the nature of the tree.
 
+Algorithms for single source shortest path
 
+	1.Djikstra's algorithm(cannot be used since there is no priority between edges)
+	2.Warshall's algorithm(input to the algorithm is in adjacency matrix format)
+	3.Bellman Ford algorithm
+	4.0-1 BFS
